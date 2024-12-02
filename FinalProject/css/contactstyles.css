@@ -131,3 +131,87 @@ textarea {
     color: #C09891;
 }
 
+/*footer design*/
+
+.main-footer { 
+    background-color: #4B2C1F;
+    min-height: 10vh;
+    max-height: 20vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+.footer-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer-right-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.5rem;
+}
+
+.contact-footer-div {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.footer-instagram {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.instagram-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1rem;
+    color: white;
+}
+
+.instagram-text:hover, .instagram-text:focus {
+    text-decoration: underline;
+}
+
+.contact-link-footer {
+    color:#3C5667;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1rem;
+    padding: 0.4rem 0.4rem;
+}
+
+.instagram-logo {
+    background-image: url("../img/instagramlogo.png");  
+    background-size: cover;
+    min-height: 15px;
+    min-width: 15px;
+    margin: -0.2rem 0 0 0.5rem;
+}
+
+.contact-footer-div:focus, .contact-footer-div:hover {
+    background-color:#8AB3C8;
+}
+
+.contact-link-footer:focus, .contact-link-footer:hover {
+    color:  #4B2C1F;
+}
+
