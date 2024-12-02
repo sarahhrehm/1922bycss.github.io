@@ -66,6 +66,8 @@ body {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
+  background-color:#DDE5ED;
+  color: black;
 }
 
 .headerimg {
@@ -77,11 +79,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.4;
 }
 
 h1 {
     font-family: "Big Shoulders Inline Text", serif;
     color: white;
+    font-weight: 900;
 }
 
 .iframe {
