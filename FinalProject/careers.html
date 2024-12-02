@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@400;700&family=Barlow:wght@400&display=swap" rel="stylesheet">
+    <link href="css/careersstyles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>1922 by Carolina Coffee Shop</h1>
+    </div>
+    <div class="main">
+        <h2 class="title">Job Application</h2>
+        <p>All available positions are open and you must be available 5 days/week.</p>
+        <p class="bold-text">COMPLETE THE FORM BELOW</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Full Name">
+
+            <label for="age">Are you 18 years or older?</label>
+            <select id="age" name="age">
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email Address">
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number">
+
+            <label for="positions">Position(s) of Interest:</label>
+            <p class="align-left">Please select all that apply</p>
+            <div class="checkbox-group">
+                <label for="host">
+                    <input type="checkbox" id="host" name="positions" value="host">
+                    Host
+                </label>
+                <label for="server">
+                    <input type="checkbox" id="server" name="positions" value="server">
+                    Server
+                </label>
+                <label for="cook">
+                    <input type="checkbox" id="cook" name="positions" value="cook">
+                    Cook
+                </label>
+                <label for="foodrunner">
+                    <input type="checkbox" id="foodrunner" name="positions" value="foodrunner">
+                    Food Runner
+                </label>
+                <label for="busser">
+                    <input type="checkbox" id="busser" name="positions" value="busser">
+                    Busser
+                </label>
+            </div>            
+
+            <label for="availability">Availability:</label>
+            <p class="align-left">Please specify below the days of the week and, in general, the times you are available to work. Also, please note that shifts are scheduled in 5-hour increments (8 am-1 pm).</p>
+            <textarea id="availability" name="availability" rows="3" placeholder="Availability"></textarea>
+
+            <label for="education">Education:</label>
+            <p class="align-left">Please list below your educational history including current endeavors (if applicable)</p>
+            <textarea id="education" name="education" rows="3" placeholder="Education"></textarea>
+
+            <label for="resume">Resume:</label>
+            <input type="file" id="resume" name="resume">
+
+            <button type="submit" class="submit-button">SUBMIT</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>Chapel Hill, NC</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>

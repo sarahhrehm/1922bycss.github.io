@@ -1,0 +1,128 @@
+  
+  .barlow-condensed-light {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .barlow-condensed-regular {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .barlow-condensed-medium {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow-condensed-semibold {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .barlow-condensed-bold {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .barlow-condensed-thin-italic {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .barlow-condensed-regular-italic {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
+  .barlow-condensed-black-italic {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .big-shoulders-inline-text-title {
+    font-family: "Big Shoulders Inline Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000px;
+    font-style: normal;
+  }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.headerimg {
+    background-image: url("../img/Events.jpeg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Big Shoulders Inline Text", serif;
+    color: white;
+}
+
+.iframe {
+    border: solid 1px #777;
+    width: 466px;
+    height: 350px; 
+    margin-top: 1vh;
+    /* frameborder:0; */
+}
+
+.bodytext {
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    font-weight: 500;
+}
+
+@media screen and (min-width: 1000px) {
+    .bodytext {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pdiv {
+        margin: 20px;
+    }
+
+    .iframe {
+        width: 600px;
+        height: 400px; 
+        margin-left: 40px;
+    }
+
+    .pdiv {
+        margin: 10px;
+        width: 39vw;
+        font-size: 1.3em;
+    }
+}

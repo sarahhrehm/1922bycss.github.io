@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.col {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+  
+.col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+
+img:focus, img:hover {
+    transform: scale(1.01);
+}
+
+@media screen and (min-width: 760px) {
+  .col {
+    flex: 40%;
+    max-width: 50%;
+  }
+}

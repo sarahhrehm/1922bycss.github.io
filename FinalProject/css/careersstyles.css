@@ -1,0 +1,146 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #FBF0EF;
+    color: #2A0800;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #7BAFD4;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.header h1 {
+    font-family: 'Big Shoulders Inline Display', sans-serif;
+    font-size: 38px;
+    color: #2A0800;
+    margin: 0;
+}
+
+.main {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #FBF0EF;
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.title {
+    font-family: 'Big Shoulders Inline Display', sans-serif;
+    font-size: 38px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    font-weight: bolder;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.align-left {
+    text-align: left;
+    font-weight: lighter;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #2A0800;
+    border-radius: 4px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    color: #2A0800;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox-group {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    margin-left: 40px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.submit-button {
+    margin: 30px auto 0 auto;
+    background-color: #C09891;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    transition: background-color 0.3s ease;
+    max-width: 20%;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #775144;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #775144;
+    color: #F8F0EF;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #F8F0EF;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #C09891;
+}
+
+
+
