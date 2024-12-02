@@ -1,5 +1,5 @@
 body {
-    font-family: 'Barlow', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     background-color:#DDE5ED;
     color: black;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 .header h1 {
-    font-family: 'Big Shoulders Inline Display', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 38px;
     color: #2A0800;
     margin: 0;
@@ -27,7 +27,7 @@ body {
     width: 90%;
     max-width: 600px;
     padding: 20px;
-    background-color: #FBF0EF;
+    background-color:#DDE5ED;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .title {
-    font-family: 'Big Shoulders Inline Display', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 38px;
     margin-bottom: 10px;
     text-align: center;
@@ -67,7 +67,7 @@ input[type="text"], input[type="email"], select, textarea {
     margin-top: 5px;
     border: 1px solid #2A0800;
     border-radius: 4px;
-    font-family: 'Barlow', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 16px;
     color: #2A0800;
     box-sizing: border-box;
@@ -110,7 +110,7 @@ input[type="file"] {
     border-radius: 25px;
     cursor: pointer;
     font-size: 16px;
-    font-family: 'Barlow', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     transition: background-color 0.3s ease;
     max-width: 20%;
     display: block;
@@ -120,7 +120,7 @@ input[type="file"] {
     background-color: #775144;
 }
 
-.footer {
+footer {
     text-align: center;
     padding: 20px;
     background-color: #775144;

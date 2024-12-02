@@ -1,5 +1,5 @@
 body {
-    font-family: 'Barlow', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: black;
     margin: 0;
     padding: 0;
@@ -82,7 +82,7 @@ input[type="text"], input[type="email"], select, textarea {
     margin-top: 5px;
     border: 1px solid #91abc0;
     border-radius: 4px;
-    font-family: 'Barlow', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 16px;
     color: #2A0800;
     box-sizing: border-box;
@@ -101,7 +101,7 @@ textarea {
     border-radius: 25px;
     cursor: pointer;
     font-size: 16px;
-    font-family: 'Barlow', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     transition: background-color 0.3s ease;
 }
 
