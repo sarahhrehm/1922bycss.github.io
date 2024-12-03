@@ -220,7 +220,6 @@ li:hover, li:focus {
 }
 
 header {
-    padding: 20px;
     text-align: center;
     width: 100%;
 }
@@ -276,6 +275,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #DDE5ED;
 }
 
 label {
@@ -319,9 +319,6 @@ textarea {
 }
 
 footer {
-    text-align: center;
-    background-color: #775144;
-    color: #F8F0EF;
     width: 100%;
     padding: 1rem;
 }
@@ -362,6 +359,7 @@ footer {
     font-style: bold;
     font-size: 1.5rem;
     color: white;
+    margin-left: 1rem;
 }
 
 .footer-right-div {
@@ -370,6 +368,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-top: -0.5rem;
+    margin-right: 1rem;
 }
 
 .contact-footer-div {
@@ -465,7 +464,6 @@ footer {
     font-style: bold;
     font-size: 2rem;
     min-width: 30vw;
-    margin-bottom: -0.5rem;
 }
 
 .menu-title-box {
@@ -481,5 +479,5 @@ footer {
     font-weight: 600;
     font-style: bold;
     font-size: 2rem;
-    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }

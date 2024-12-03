@@ -362,6 +362,7 @@ img:focus, img:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
 }
 
 .welcome-h1 {
@@ -387,5 +388,22 @@ img:focus, img:hover {
     font-weight: 600;
     font-style: bold;
     font-size: 2rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.submit-button {
+  margin-top: 30px;
+  background-color:#9ac4ee;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #775144;
 }
