@@ -180,6 +180,10 @@ header {
     text-decoration: underline;
 }
 
+ol li:hover, ol li:focus {
+  text-decoration: none;
+}
+
 /*header*/
 .primary-header { 
     background-color: #4B2C1F;
