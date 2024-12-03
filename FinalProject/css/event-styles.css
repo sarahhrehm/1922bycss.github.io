@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
   background-color:#DDE5ED;
   color: black;
+  min-width: 450px;
 }
 
 a:active,
@@ -235,8 +236,8 @@ h1 {
 
 .iframe {
     border: solid 1px #777;
-    width: 466px;
-    height: 350px; 
+    width: 400px;
+    height: 300px; 
     margin-top: 1vh;
     /* frameborder:0; */
 }
