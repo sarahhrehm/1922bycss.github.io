@@ -4,6 +4,8 @@ body {
     padding: 0;
     border: 0;
     background-color:#DDE5ED;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 a:active,
@@ -197,7 +199,7 @@ li:hover, li:focus {
 }
 
 nav {
-    margin-top: -5rem; 
+    margin-top: 1rem; 
     max-width: 60vw;
     order: 1;
 }
@@ -237,7 +239,7 @@ li:hover, li:focus {
     padding-bottom: 1.5rem;
 }
 
-.welcome-h1 {
+.welcome-h2 {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -272,7 +274,7 @@ li:hover, li:focus {
     padding-bottom: 1.5rem;
 }
 
-.h2-title {
+.h3-title {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -304,6 +306,7 @@ li:hover, li:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 .gallery-link-box {
@@ -522,29 +525,5 @@ li:hover, li:focus {
     .gallery-preview-box {
         background-position: 60% 26%;
         min-height: 40vh;
-    }
-
-    nav {
-        display: flex;
-        max-width: 60vw;
-        margin-top: 1rem;
-    }
-
-    .primary-header {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .nav-collapse {
-        order: 3;
-    }
-    
-    #logo-order {
-        order: 1;
-        margin-right: 1rem;
-    }
-
-    .menu-item {
-        margin: 0 -1.2rem;
     }
 }

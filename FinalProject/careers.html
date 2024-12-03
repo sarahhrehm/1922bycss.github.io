@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application</title>
+    <script src="js/responsive-nav.js"></script>
+    <link href="css/careersstyles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link href="css/careersstyles.css" rel="stylesheet">
+
 </head>
 <body>
-    <div class="header">
-        <h1>1922 by Carolina Coffee Shop</h1>
-    </div>
+    <header class="primary-header">
+        <a id="logo-order" aria-label="return home" href="index.html">
+            <div class="primary-logo"></div>
+        </a>
+        <nav class="nav-collapse">      
+            <ul>
+                <li class="menu-item"><a href="index.html" data-scroll>Home</a></li>
+                <li class="menu-item"><a href="menu.html" data-scroll>Menu</a></li>
+                <li class="menu-item"><a href="gallery.html" data-scroll>Gallery</a></li>
+                <li class="menu-item"><a href="events.html" data-scroll>Events</a></li>
+                <li class="menu-item"><a href="contact.html" data-scroll>Contact</a></li>
+                <li class="menu-item"><a href="careers.html" data-scroll>Careers</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="main">
         <h2 class="title">Job Application</h2>
         <p>All available positions are open and you must be available 5 days/week.</p>
@@ -90,5 +104,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
 </body>
 </html>
