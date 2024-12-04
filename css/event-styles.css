@@ -235,10 +235,9 @@ h1 {
 
 .iframe {
     border: solid 1px #777;
-    width: 466px;
-    height: 350px; 
+    width: 400x;
+    height: 300px; 
     margin-top: 1vh;
-    /* frameborder:0; */
 }
 
 .bodytext {

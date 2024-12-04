@@ -300,7 +300,7 @@ input[type="file"] {
 
 .submit-button {
     margin: 30px auto 0 auto;
-    background-color: #C09891;
+    background-color: #8AB3C8;
     color: #FFFFFF;
     padding: 10px 20px;
     border: none;
@@ -309,7 +309,6 @@ input[type="file"] {
     font-size: 16px;
     font-family: "Josefin Sans", sans-serif;
     transition: background-color 0.3s ease;
-    max-width: 20%;
     display: block;
 }
 
@@ -391,7 +390,6 @@ input[type="file"] {
 }
 
 .contact-link-footer {
-    color:#3C5667;
     text-decoration: none;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -408,16 +406,6 @@ input[type="file"] {
     min-width: 15px;
     margin: -0.2rem 0 0 0.5rem;
 }
-
-.contact-footer-div:focus, .contact-footer-div:hover {
-    background-color:#8AB3C8;
-}
-
-.contact-link-footer:focus, .contact-link-footer:hover {
-    color:  #4B2C1F;
-}
-
-
 
 @media screen and (min-width: 768px) {
     nav {
@@ -478,9 +466,14 @@ input[type="file"] {
     margin-bottom: 2rem;
 }
 
-.submit-button {
+footer {
+    width: 100%;
+    padding: 1rem;
+}
+
+.contact-button {
     margin-top: 30px;
-    background-color:#9ac4ee;
+    background-color:#8AB3C8;
     color: #FFFFFF;
     padding: 10px 20px;
     border: none;
@@ -491,11 +484,6 @@ input[type="file"] {
     transition: background-color 0.3s ease;
 }
 
-.submit-button:hover {
+.contact-button:focus, .contact-button:hover {
     background-color: #775144;
-}
-
-footer {
-    width: 100%;
-    padding: 1rem;
 }
