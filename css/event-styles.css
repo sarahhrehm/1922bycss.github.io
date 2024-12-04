@@ -421,7 +421,7 @@ h1 {
     font-size: 2rem;
 }
 
-.submit-button {
+.contact-button {
   margin-top: 30px;
   background-color:#9ac4ee;
   color: #FFFFFF;
@@ -434,6 +434,6 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-.submit-button:hover {
+.contact-button:hover {
   background-color: #775144;
 }
