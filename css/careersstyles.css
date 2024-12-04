@@ -335,38 +335,30 @@ input[type="file"] {
 .main-footer { 
     background-color: #4B2C1F;
     min-height: 10vh;
-    max-height: 20vh;
     padding: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 2rem;
 }
 
 .footer-text {
+    position: relative;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: bold;
     font-size: 1.5rem;
     color: white;
-    margin-left: 1rem;
 }
 
-.footer-right-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -0.5rem;
-    margin-right: 1rem;
-}
-
-.contact-footer-div {
-    background-color: white;
-    border-radius: 5px;
+.footer-subtext {
+    padding-top: 12px;
+    font-size: 1rem;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .footer-instagram {
@@ -374,6 +366,7 @@ input[type="file"] {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    margin-top: -1rem;
 }
 
 .instagram-text {
@@ -390,6 +383,7 @@ input[type="file"] {
 }
 
 .contact-link-footer {
+    color:#3C5667;
     text-decoration: none;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -405,6 +399,19 @@ input[type="file"] {
     min-height: 15px;
     min-width: 15px;
     margin: -0.2rem 0 0 0.5rem;
+}
+
+.contact-footer-div:focus, .contact-footer-div:hover {
+    background-color:#8AB3C8;
+}
+
+.contact-link-footer:focus, .contact-link-footer:hover {
+    color:  #4B2C1F;
+}
+
+footer div {
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
